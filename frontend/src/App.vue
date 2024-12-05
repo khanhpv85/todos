@@ -1,9 +1,6 @@
 <template>
-  <div class="min-h-screen bg-gray-100">
-    <TodoList />
-  </div>
+    <TodoView />
 </template>
-
 <script setup lang="ts">
-import TodoList from './components/todos/TodoList.vue'
+  import TodoView from './views/TodoView.vue'
 </script>
